@@ -1,0 +1,18 @@
+{
+"manifest_version":2,
+"name":"TimeZone",
+"version":"2.0.2",
+"description":"This is a simple extention that shows your current timezone",
+"icons":{
+    "128":"clock.png"
+},
+"browser_action":{
+    "default_popup":"popup.html",
+    "default_icon":"clock.png",
+    "default_title":"TimeZone"
+},
+"permissions":["activateTab"],
+"background":{
+    "scripts":["main.js"]
+}
+    }
