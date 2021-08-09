@@ -11,7 +11,7 @@
     "default_icon":"clock.png",
     "default_title":"TimeZone"
 },
-"permissions":["activateTab"],
+"permissions":["activeTab"],
 "background":{
     "scripts":["main.js"]
 }
